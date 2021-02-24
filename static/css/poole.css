@@ -48,7 +48,7 @@ body {
 }
 
 html {
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: Georgia, sans-serif;
   font-size: 16px;
   line-height: 1.5;
 }
@@ -148,7 +148,7 @@ abbr[title] {
 /* Code */
 code,
 pre {
-  font-family: Menlo, Monaco, "Courier New", monospace;
+  font-family: Consolas, "Courier New", monospace;
 }
 code {
   padding: .25em .5em;
@@ -233,6 +233,7 @@ tbody tr:nth-child(odd) th {
  */
 
 .lead {
+  font-family: "Open Sans", sans-serif;
   font-size: 1.25rem;
   font-weight: 300;
 }
@@ -363,7 +364,7 @@ tbody tr:nth-child(odd) th {
   overflow: hidden; /* clearfix */
   margin-left: -1rem;
   margin-right: -1rem;
-  font-family: "PT Sans", Helvetica, Arial, sans-serif;
+  font-family: "Open Sans", Arial, sans-serif;
   color: #ccc;
   text-align: center;
 }
