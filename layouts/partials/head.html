@@ -33,5 +33,10 @@
   <!-- Fonts -->
   {{ partial "fonts_head.html" }}
 
+  {{ if and (not .Site.IsServer) (.Site.GoogleAnalytics) }}
+    <!-- Google Analytics -->
+    {{ partial "google_analytics.html" . }}
+  {{ end }}
+  
   {{ partial "hook_head_end.html" . }}
 </head>
