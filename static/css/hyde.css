@@ -267,15 +267,30 @@ a.sidebar-nav-item:focus {
   text-decoration: none;
   display: inline-block;
   font-size: 14px;
+  cursor: pointer;
 }
 
 .txtarea {
   font-family: Consolas, "Courier New", monospace;
   font-size: .8rem;
   color: #515151;
-  background-color: #f9f9f9;
+  background-color: #f3f3f3;
   border: 0px;
   padding: 12px;
   border-radius: 5px;
   height: 120px;
+}
+
+.txtinput {
+  font-family: Consolas, "Courier New", monospace;
+  font-size: .8rem;
+  color: #515151;
+  background-color: #f3f3f3;
+  border: 0px;
+  padding: 12px;
+  border-radius: 5px;
+}
+
+.full-width {
+  width: 100%;
 }
